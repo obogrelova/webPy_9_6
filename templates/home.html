@@ -1,10 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block title %}
+    Сила Самогипноза.
+{% endblock %}
+
+
+{% block content %}
+    <h1>Добро пожаловать на главную страницу нашего сайта!</h1>
+    <h2>Здесь вы можете найти ответы на разные вопросы.</h2>
+
+    <div class="row my-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="image/image1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Что такое самогипноз?</h5>
+                    <p class="card-text">Самогипноз - это метод самовнушения, который помогает расслабиться, снять стресс и внести позитивные изменения в свою жизнь. Это инструмент, позволяющий настроить подсознание на достижение целей и укрепление уверенности.</p>
+                    <a href="https://www.psychologytoday.com" class="btn btn-primary">Psychology Today</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="image/image2.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Как работает самогипноз?</h5>
+                    <p class="card-text">Самогипноз работает, создавая состояние расслабления, в котором ваш разум становится более восприимчивым к новым мыслям и убеждениям. Это состояние называют "гипнотическим трансом".</p>
+                    <a href="https://www.psychologytoday.com" class="btn btn-primary">Psychology Today</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="image/image3.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Преимущества самогипноза.</h5>
+                    <ul>
+                        <li>Снятие стреса и тревоги</li>
+                        <li>Повышение уверенности в себе</li>
+                        <li>Избавление от вредных привычек</li>
+                        <li>Улучшение сна</li>
+                        <li>Достижение личных целей</li>
+                    </ul>
+                    <a href="https://www.psychologytoday.com" class="btn btn-primary">Psychology Today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
